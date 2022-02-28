@@ -45,13 +45,6 @@ public class MyStoreAddAddressSteps {
 
     @And("user inputs field {string} , {string}, {string}, {string}, {string} , {string} and clicks Save button")
     public void userInputsFieldAndClicksSaveButton(String alias, String address, String city, String zip, String country, String phone) {
-//        driver.findElement(By.name("alias")).sendKeys(alias);
-//        driver.findElement(By.name("address1")).sendKeys(address);
-//        driver.findElement(By.name("city")).sendKeys(city);
-//        driver.findElement(By.name("postcode")).sendKeys(zip);
-//        driver.findElement(By.name("phone")).sendKeys(phone);
-//        driver.findElement(By.name("id_country")).sendKeys(country);
-//        driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/form/footer/button")).click();
         newAddressForm = new NewAddressForm(driver);
         newAddressForm.fillTheForm(alias, address, city, zip, country, phone);
 

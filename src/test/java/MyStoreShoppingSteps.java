@@ -1,21 +1,16 @@
-import Helpers.ScreenShot;
 import Helpers.WebDriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.commons.io.FileUtils;
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.SuccessMessageAssertion;
+
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 
 public class MyStoreShoppingSteps {
 
