@@ -92,6 +92,7 @@ public class MyStoreShoppingSteps {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile, new File("C:\\Users\\Damian\\Desktop\\bony./image.png"));
 
+//        driver.quit();
     }
 
 }

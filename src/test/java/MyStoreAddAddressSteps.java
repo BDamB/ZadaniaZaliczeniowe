@@ -54,5 +54,6 @@ public class MyStoreAddAddressSteps {
     @Then("new address has been added and success message is displayed")
     public void newAddressHasBeenAddedAndSuccessMessageIsDisplayed() {
         Assertions.assertEquals("Address successfully added!",newAddressForm.getSuccessAddMessage());
+//        driver.quit();
     }
 }
